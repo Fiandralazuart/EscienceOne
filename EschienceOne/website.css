@@ -1,0 +1,295 @@
+
+body {
+    padding-bottom: 50px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+/*bagian informasi awal*/
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/*style bagian logo*/
+.box1 {
+    margin-bottom: 80px;
+    width: 350px;
+    border: solid 1px gray;
+    border-radius: 175px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.logo-kelas {
+    width: 100%;
+    border-radius: 175px;
+}
+
+/*style bagian jumlah siswa*/
+.box2 {
+    display: flex;
+    align-items: end;
+    margin-bottom: 100px;
+}
+.box-siswa1, .box-siswa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    color: black;
+    height: 150px;
+    width: 200px;
+    border: none;
+    
+}
+.box-siswa1 {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 10px;
+    box-shadow: -5px -10px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.box-siswa2 {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.15);
+}
+.box-siswa-total {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.box-siswa-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2E3E7;
+    color: black;
+    height: 180px;
+    width: 250px;
+    border: none;
+    font-size: 150px;
+    color: #C17565;
+}
+.box-siswa1, .box-siswa2 p {
+    font-size: 100px;
+    margin: 0;
+    color: #968F31;
+}
+
+/*style bagian nama dan kelas*/
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px
+}
+.box3 h1,h2 {
+    margin: 0;
+    margin-bottom: 20px
+}
+.name-class {
+    font-size: 65px;
+}
+.class {
+    font-size: 50px;
+    color: #BEA100;
+    font-style: italic;
+}
+
+/*style bagian galery*/
+.box4 {
+    display: flex;
+    width: 800px;
+    gap: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 100px;
+    margin-bottom: 200px;
+}
+.friend-picture {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    scroll-snap-align: start;
+    border: none;
+    border-radius: 30px;
+}
+
+
+/*style container2*/
+.desk {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+/*style bagian gambar*/
+.walas-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.img {
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    height: 320px;
+}
+.img:hover .info{
+    opacity: 1;
+}
+.info {
+    background-color: rgba(255, 255, 255, 0.763);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 120px;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.info p {
+    margin: 10px;
+}
+.structure-img {
+    height: 100%;
+    width: 270px;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+}
+
+.ketwal-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.sekre-box {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-bottom: 100px;
+}
+
+
+/*style bagian schedule*/
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.schedule h1 {
+    font-size: 50px;
+}
+.schedule-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.mini-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(223, 223, 223);
+    padding: 15px 25px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px -3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mini-box2 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+.kotak {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    background-color: #E2E3E7;
+}
+
+.mapel p, .jam p {
+    font-size: 50px;
+    margin: 0;
+}
+.mapel2, .jam2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.jam2 {
+    width: 120px;
+}
+
+
+/*style bagian schedule button box*/
+.day-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.day-1{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 40px;
+}
+.day-1 button, .day-2 button {
+    font-size: 35px;
+    border: none;
+    border-radius: 10px;
+    color: #E2E3E7;
+    background-color: #968F31;
+    padding: 10px;
+    transition: background-color, color 0.5s;
+}
+.day-btn:hover {
+    background-color: white;
+    color: #968F31;
+    border: solid 1px #968F31;
+}
+
+/*style bagian information author*/
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    row-gap: 10px;
+}
+.author {
+    display: flex;
+    gap: 10px;
+}
+.write {
+    margin: 0;
+    font-size: 25px;
+    color: gray;
+}
+.writer {
+    margin: 0;
+    font-style: italic;
+    font-size: 25px;
+    color: gray;
+}
+.information {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    color: gray;
+}

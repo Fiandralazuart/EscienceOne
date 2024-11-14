@@ -2,97 +2,97 @@ const database = [{
     day: 'Senin',
     list: [{
             mapel: 'PPKN',
-            jam: '1 - 2'
+            jam: '07.30 - 09.00'
         },{
             mapel: 'Kimia',
-            jam: '3'
+            jam: '09.00 - 09.45'
         },{
             mapel: 'Bhs Inggris',
-            jam: '4 - 5'
+            jam: '10.00 - 11.30'
         },{ 
             mapel: 'Agama',
-            jam: '6 - 7'
+            jam: '11.30 - 13.45'
         },{
             mapel: 'Fisika',
-            jam: '8 - 9'
+            jam: '17.45 - 15.15'
         },{
             mapel: 'Matematika TL',
-            jam: '10'
+            jam: '15.15 - 16.00'
         }]
     },{
     day: 'Selasa',
     list: [{
             mapel: 'PJOK',
-            jam: '1 - 2'
+            jam: '06.45 - 08.15'
         },{
             mapel: 'Bhs Indonesia',
-            jam: '3'
+            jam: '08.15 - 09.00'
         },{ 
             mapel: 'Bhs Inggris TL',
-            jam: '4'
+            jam: '09.00 - 09.45'
         },{
             mapel: 'Kimia',
-            jam: '5 - 6'
+            jam: '10.00 - 11.30'
         },{
             mapel: 'Seni',
-            jam: '7'
+            jam: '11.30 - 12.15'
         },{
             mapel: 'Sejarah',
-            jam: '8 - 9'
+            jam: '13.00 - 14.30'
         },{
             mapel: 'Fisika',
-            jam: '10'
+            jam: '14.30 - 15.15'
         }]
         },{
     day: 'Rabu',
     list: [{
             mapel: 'P5',
-            jam: '1 - 4'
+            jam: '06.45 - 09.45'
         },{
             mapel: 'Matematika',
-            jam: '5'
+            jam: '10.00 - 10.45'
         },{ 
             mapel: 'Bhs Inggris TL',
-            jam: '6 - 7'
+            jam: '10.45 - 12.15'
         },{
             mapel: 'Mulok',
-            jam: '8 - 9'
+            jam: '13.00 - 14.30'
         },{
             mapel: 'Matematika TL',
-            jam: '10 - 11'
+            jam: '14.30 - 16.00'
         }]
     },{
     day: 'Kamis',
     list: [{
             mapel: 'Kimia',
-            jam: '1 - 2'
+            jam: '06.45 - 08.15'
         },{
             mapel: 'PKWU',
-            jam: '2 - 4'
+            jam: '08.15 - 09.45'
         },{ 
             mapel: 'Matematika TL',
-            jam: '5 - 6'
+            jam: '10.00 - 11.30'
         },{
             mapel: 'Fisika',
-            jam: '7 - 8'
+            jam: '11.30 - 13.45'
         },{
             mapel: 'Matematika',
-            jam: '9 - 10'
+            jam: '13.45 - 15.15'
         },{
             mapel: 'Bhs Inggris',
-            jam: '11'
+            jam: '15.15 - 16.00'
         }]
     },{
     day: 'Jumat',
     list: [{
             mapel: 'P5',
-            jam: '1'
+            jam: '06.45 - 07.30'
         },{
             mapel: 'Bhs Indonesia',
-            jam: '2 - 3'
+            jam: '07.30 - 09.00'
         },{ 
             mapel: 'Bhs Inggris TL',
-            jam: '4 - 5'
+            jam: '09.25 - 10.55'
         }]
     }]
 
